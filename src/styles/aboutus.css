@@ -1,0 +1,67 @@
+.h4{
+    padding: 10px 0px !important;
+}
+
+.image{
+    padding-bottom: 20px;
+}
+
+.h223{
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.h21{
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.divv{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px;
+    
+}
+
+.divv i{
+    padding-right: 20px;
+}
+
+.h23{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.auth__form{
+    border: none;
+}
+
+.auth__form .ta{
+    border-radius: 20px;
+}
+
+.pp{
+    padding: 0px 30px;
+}
+
+.linkk{
+    color: dodgerblue !important;
+}
+
+.pp {
+    margin: 20px 0px !important;
+}
+
+.h233{
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.imgg{
+    display: flex;
+    align-items: center;
+}

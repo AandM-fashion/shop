@@ -1,0 +1,208 @@
+
+
+.product__details{
+    margin-top: 50px;
+    margin-left: 0px;
+
+}
+.img{
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-right: 80px;
+    
+}
+
+.product__details h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.product__rating span i{
+    color: coral;
+}
+
+.product__rating p span{
+    color: coral;
+    font-weight: 500;
+}
+
+.product__price{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.buy__button{
+    margin-top: 30px;
+}
+
+.tab__wrapper {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-style: 1rem;
+    cursor: pointer;
+}
+
+.active__tab{
+    font-weight: 600;
+}
+.tab__content p{
+    line-height: 30px;
+}
+
+.review__wrapper ul li span{
+    color: coral;
+    font-weight: 600;
+}
+
+.review__wrapper ul li p{
+    margin-top: 10px;
+
+}
+
+.review__form{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.review__form h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.form__group input{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.form__group textarea{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.form__group input:focus{
+    outline: none;
+}
+
+.form__group textarea:focus{
+    outline: none;
+}
+
+.form__group{
+    margin-bottom: 30px;
+
+}
+
+.form__group span{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: coral;
+    font-weight: 6;
+    cursor: pointer;
+}
+
+.related__title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.slider{
+    border-radius: 20px;
+}
+
+.fav_button{
+    background: #fc6c85 !important;
+}
+
+.fav_button:hover{
+    background: #fff !important;
+    color: #fc6c85 !important;
+}
+
+.multiline {
+    white-space: pre-wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .donate-now {
+    list-style-type: none;
+    margin: 25px 0 0 0;
+    padding: 0;
+  }
+  
+  .donate-now li {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 100px;
+    height: 40px;
+    position: relative;
+  }
+  
+  .donate-now label,
+  .donate-now input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .donate-now input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100;
+  }
+  
+  .donate-now input[type="radio"]:checked+label,
+  .Checked+label {
+    background: yellow;
+  }
+  
+  .donate-now label {
+    padding: 5px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    z-index: 90;
+  }
+  
+  .donate-now label:hover {
+    background: #DDD;
+  } 
+  
+  .coll{
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* product-details.css */
+
+.small_button{
+    width: fit-content !important;
+    
+}
+  
+
+
+@media only screen and (max-width:768px){
+    .img{
+        padding-right: 0px;
+    }
+    .rating__group{
+        column-gap: 1rem !important;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .img{
+        padding-right: 0px;
+    }
+}
